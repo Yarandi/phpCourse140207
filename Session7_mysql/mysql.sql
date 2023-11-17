@@ -19,12 +19,12 @@ SELECT username,email FROM users WHERE id = 1 AND username = 'reza';
 SELECT username,email FROM users WHERE email = 'reza@gmail.com' OR username = 'reza'; 
 
 UPDATE users SET phone = '09122771586' WHERE username='hamed' AND id = 2;
-//reza you should see this after fetch 
+
+
 
 DELETE FROM users WHERE id = 1;
 
-//check for reza
-//check for hamed
+
 
 
 
