@@ -23,7 +23,7 @@ UPDATE users SET phone = '09122771586' WHERE username='hamed' AND id = 2;
 
 DELETE FROM users WHERE id = 1;
 
-
+//check for reza
 
 
 
