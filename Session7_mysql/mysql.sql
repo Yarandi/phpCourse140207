@@ -18,13 +18,8 @@ SELECT username,email FROM users WHERE id = 1;
 SELECT username,email FROM users WHERE id = 1 AND username = 'reza'; 
 SELECT username,email FROM users WHERE email = 'reza@gmail.com' OR username = 'reza'; 
 
-<<<<<<< HEAD
 UPDATE users SET phone = '09122771586' WHERE username='hamed' AND id = 2;
 //reza you should see this after fetch 
-=======
-UPDATE users SET phone = '09122771586' WHERE username='reza' AND id = 2;
-
->>>>>>> ed53554fcd1bc177e89f8d5a0be89588ffbb65b9
 
 DELETE FROM users WHERE id = 1;
 
